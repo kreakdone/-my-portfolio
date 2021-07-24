@@ -1,0 +1,75 @@
+body {
+  background-image: url(./image/background1.png);
+  background-size: cover;
+  height: 100vh;
+  width: 100vh;
+}
+.container {
+  height: 100vh;
+}
+.area {
+  height: 100vh;
+}
+.pf {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.x {
+  font-size: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pf-name {
+  font-size: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pf-will,
+.pf-will2 {
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pf-dtl,
+.point {
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.born,
+.interest,
+.fb {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  display: inline-block;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  border: solid 2px;
+  border-radius: 3px;
+  transition: 0.4s;
+  margin: 10px;
+}
+.b {
+  float: left;
+  list-style: none;
+  margin: 30px;
+  text-align: center;
+}
